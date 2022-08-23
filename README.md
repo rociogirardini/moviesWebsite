@@ -61,7 +61,7 @@ Done.
 
 This project was built just for a challenge, so the credentials are specific.
 
-You can see the email in the .GIF, and the password is 'react'.
+The email is 'challenge@alkemy.org', and the password is 'react'.
 
 <!-- CONTACT -->
 ## Contact
