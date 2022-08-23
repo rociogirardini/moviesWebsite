@@ -71,7 +71,7 @@ The email is 'tests@cinema.org', and the password is 'moviesWebsite'.
 
 Rocío de los Milagros Girardini - [@Linkedin](https://www.linkedin.com/in/rocio-girardini/) - rogirardini@gmail.com
 
-Project Link: [https://rgirarmovieswebsite.000webhostapp.com/](https://rociogirardini.github.io/moviesWebsite/)
+Project Link: [https://rociogirardini.github.io/moviesWebsite/](https://rgirarmovieswebsite.000webhostapp.com/)
 <br />
 Repository Link: [https://github.com/rociogirardini/moviesWebsite](https://github.com/rociogirardini/moviesWebsite)
 
