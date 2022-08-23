@@ -12,9 +12,9 @@
   <p align="center">
     Movies website built with React Js with login verification. Reponsive design.
     <br />
-    ¡CHECK DE INSTRUCTIONS SECTION BELOW TO SEE THE CREDENTIALS!
+    ¡CHECK INSTRUCTIONS BELOW TO SEE THE CREDENTIALS!
     <br />
-    <a href="https://rociogirardini.github.io/moviesWebsite/">Demo</a>
+    <a href="https://rgirarmovieswebsite.000webhostapp.com/">Demo</a>
     <br />
     <a href="https://github.com/rociogirardini/"><strong>Explore other projects »</strong></a>
     <br />
@@ -71,7 +71,7 @@ The email is 'tests@cinema.org', and the password is 'moviesWebsite'.
 
 Rocío de los Milagros Girardini - [@Linkedin](https://www.linkedin.com/in/rocio-girardini/) - rogirardini@gmail.com
 
-Project Link: [https://rociogirardini.github.io/moviesWebsite/](https://rociogirardini.github.io/moviesWebsite/)
+Project Link: [https://rgirarmovieswebsite.000webhostapp.com/](https://rociogirardini.github.io/moviesWebsite/)
 <br />
 Repository Link: [https://github.com/rociogirardini/moviesWebsite](https://github.com/rociogirardini/moviesWebsite)
 
