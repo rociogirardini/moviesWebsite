@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Link, Navigate, useSearchParams } from "react-router-dom";
 import axios from "axios";
 
 // BOOTSTRAP IMPORTS
@@ -10,7 +10,7 @@ import Row from "react-bootstrap/Row";
 function Results(props) {
   let token = sessionStorage.getItem("token");
 
-  let query = new URLSearchParams(window.location.search);
+  let [query] = useSearchParams();
   let keyword = query.get("keyword");
 
   const [moviesResults, setMoviesResults] = useState([]);

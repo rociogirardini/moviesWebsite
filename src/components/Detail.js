@@ -1,4 +1,4 @@
-import { Navigate } from "react-router-dom";
+import { Navigate, useSearchParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Row from "react-bootstrap/Row";
@@ -10,7 +10,7 @@ import addFavs from '../addFavs.png'
 
 function Detail(props) {
   let token = sessionStorage.getItem("token");
-  let query = new URLSearchParams(window.location.search);
+  let [query] = useSearchParams();
   let movieID = query.get("movieID");
 
   const [movie, setMovie] = useState(null);
