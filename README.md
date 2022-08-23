@@ -40,7 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./public/moviesWebsite_demo.png" alt="Project preview" align="center">
+<img src="./public/demo.png" alt="Project preview" align="center">
 
 
 
