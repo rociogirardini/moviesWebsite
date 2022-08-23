@@ -60,9 +60,11 @@ Done.
 
 ### Instructions
 
-This project was built just for a challenge, so the credentials are specific.
+This project was built just for a challenge, so the credentials were specific, as is the use of the API.
 
-The email is 'tests@cinema.org', and the password is 'react'.
+The API usage is commented in the '<Login />' component so you can see the code, but the Demo works with the following credentials:
+
+The email is 'tests@cinema.org', and the password is 'moviesWebsite'.
 
 <!-- CONTACT -->
 ## Contact
