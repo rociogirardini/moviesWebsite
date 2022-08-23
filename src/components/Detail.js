@@ -60,13 +60,6 @@ function Detail(props) {
               </p>
               <h5 className="detailTitle">Vote average</h5>
               <ProgressBar now={Math.trunc(movie.vote_average) * 10} label={`${Math.trunc(movie.vote_average)} / 10`} />
-              <button
-                  className="btn btnFav mt-2"
-                  onClick={props.addOrRemoveFromFavs}
-                  data-movie-id={movie.id}
-                >
-                  <img src={addFavs} className="m-1" width="13px" alt="addFavsBtn" /> ADD TO FAVS
-                </button>
             </Col>
           </Row>
         </div>
