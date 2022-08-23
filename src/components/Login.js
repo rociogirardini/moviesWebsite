@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+// import axios from "axios";
 import Swal from "sweetalert2";
 import { useNavigate, Navigate } from "react-router-dom";
 
@@ -32,6 +32,28 @@ function Login() {
       return;
     }
 
+    if (email !== "tests@cinema.org" || password !== "moviesWebsite") {
+      Swal.fire(
+        "Invalid credentials",
+        "Your username or password is incorrect",
+        "info"
+      );
+      return;
+    }
+
+    if (email === "tests@cinema.org" || password === "moviesWebsite") {
+      Swal.fire("¡Successfully logged in!", "", "success");
+      const tokenRecibido = Math.random().toString(36).slice(2) + 
+      Math.random().toString(36)
+          .toUpperCase().slice(2);;
+        sessionStorage.setItem("token", tokenRecibido);
+        setTimeout(() => {
+          navigate("/list");
+        }, 2000);
+      return;
+    }
+    /* --------------- EMAIL WITH ALKEMY CREDENTIALS AND AXIOS --------------- 
+
     if (email !== "challenge@alkemy.org" || password !== "react") {
       Swal.fire(
         "Invalid credentials",
@@ -50,7 +72,7 @@ function Login() {
         setTimeout(() => {
           navigate("/list");
         }, 2000);
-      });
+      }); */
   };
 
   let token = sessionStorage.getItem("token");

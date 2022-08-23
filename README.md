@@ -10,8 +10,9 @@
 <h3 align="center">Movies Website</h3>
 
   <p align="center">
-    Movies website built with React Js with login verification. The API call is made using Axios.
-    Reponsive design.
+    Movies website built with React Js with login verification. Reponsive design.
+    <br />
+    ¡CHECK DE INSTRUCTIONS SECTION BELOW TO SEE THE CREDENTIALS!
     <br />
     <a href="https://rociogirardini.github.io/moviesWebsite/">Demo</a>
     <br />
@@ -61,7 +62,7 @@ Done.
 
 This project was built just for a challenge, so the credentials are specific.
 
-The email is 'challenge@alkemy.org', and the password is 'react'.
+The email is 'tests@cinema.org', and the password is 'react'.
 
 <!-- CONTACT -->
 ## Contact
