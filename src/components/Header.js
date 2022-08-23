@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import SearchBar from "./SearchBar";
 import alkemyLogo from "../alkemyLogo.png";
 import logout from "../logout.png";
@@ -40,13 +40,13 @@ function Header(props) {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="/list">Movies</Nav.Link>
-                  <Nav.Link href="/favorites">
+                  <Link to="/list" className="nav-link">Movies</Link>
+                  <Link to="/favorites" className="nav-link">
                     Favorites{" "}
                     <Badge bg="danger">
                       {props.favorites.length > 0 && props.favorites.length}
                     </Badge>{" "}
-                  </Nav.Link>
+                  </Link>
                 </Nav>
                 <SearchBar />
                 <span className="btnLogOut" onClick={logOut}>
