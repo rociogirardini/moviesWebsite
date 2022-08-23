@@ -1,0 +1,232 @@
+#root {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+html {
+  background-color: #fa959e;
+  min-height: 100vh;
+}
+
+#root {
+  background: radial-gradient(
+    circle,
+    rgb(91, 42, 219) 0%,
+    rgb(61, 26, 148) 80%
+  );
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+/* LOGIN */
+
+/* .LoginRow {
+  background-color: #3c1a94;
+} */
+.LoginBox {
+  background-color: #5b2adb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  height: 350px;
+  color: #ecf0f1;
+  border-radius: 10px;
+  box-shadow: -3px 3px 8px rgb(100, 53, 218);
+}
+.Login__title {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.Login__subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.LoginInput {
+  width: 80%;
+  border-radius: 30px;
+}
+
+.Login__btn {
+  color: #ecf0f1;
+  background: linear-gradient(to left, #d15a64 40%, #fc8e97);
+  border: none;
+  border-radius: 30px;
+}
+.Login__btn:hover {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #fa959e;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #fa959e;
+  color: white;
+}
+
+.menuComponents {
+  display: flex;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #fa959e;
+  color: #646363;
+  font-size: smaller;
+  height: 100%;
+}
+
+/* CARDS */
+
+.favorite-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #3f3f3f;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: none;
+  font-size: 13px;
+}
+
+.voteAverage {
+  width: 40px;
+  height: 20px;
+  background-color: #d15a64;
+  color: #ecf0f1;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 10px;
+  top: -10px;
+  left: 40%;
+}
+
+.btnCard {
+  background-color: #8fc2c1;
+  color: black;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.btnCard:hover {
+  background-color: #a3e7fc;
+  color: black;
+}
+
+/* LIST COMPONENT */
+
+.card {
+  background-color: transparent;
+  color: #ecf0f1;
+  border: none;
+}
+
+.ListImg {
+  box-shadow: -3px 3px 15px #2b1a57;
+  border-radius: 5%;
+}
+.card-title {
+  font-size: 15px;
+}
+.card-text {
+  font-weight: 300;
+}
+
+/* SEARCH BAR */
+
+.SearchBar {
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.btnSearchBar {
+  padding: 10px;
+  border-radius: 30px;
+  position: relative;
+  right: 40px;
+  background-color: #d15a64;
+  border: none;
+}
+
+.btnLogOut {
+  cursor: pointer;
+}
+
+/* DETAIL COMPONENT */
+
+.detailBox {
+  background-color: #302f2fbb;
+  padding: 2rem;
+  border-radius: 3%;
+}
+
+.detailImg{
+  max-width: 80vw;
+  margin: 5px;
+}
+
+.detailTitle {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.detailInfo {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.btnFav{
+  background-color: #ecf0f1;
+  color:#d15a64;
+  font-weight: 500;
+  font-size: smaller;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  padding:8px 20px 8px 20px
+}
+
+.progress-bar{
+  background-color: #d15a64;
+}
+/* GENERAL */
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  color: #ecf0f1;
+  letter-spacing: 3px;
+  font-weight: 300;
+  padding: 5rem 0 2rem 0;
+}
+
+/* MEDIA QUERIES */
+
+@media (width <= 290px) {
+  .labelSearchBar {
+    width: 75%;
+  }
+}
