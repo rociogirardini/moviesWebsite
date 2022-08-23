@@ -62,7 +62,7 @@ function App() {
     <>
       <Header favorites={favorites}/>
       <Routes>
-        <Route path="/" element={<Login />} exact />
+        <Route path="/" element={<Login />} />
         <Route
           path="/list"
           element={<List addOrRemoveFromFavs={addOrRemoveFromFavs} />}
