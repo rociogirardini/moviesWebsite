@@ -14,7 +14,7 @@
     <br />
     ¡CHECK INSTRUCTIONS BELOW TO SEE THE CREDENTIALS!
     <br />
-    <a href="https://rgirarmovieswebsite.000webhostapp.com/">Demo</a>
+    <a href="https://github.com/rociogirardini/moviesWebsite">Demo</a>
     <br />
     <a href="https://github.com/rociogirardini/"><strong>Explore other projects »</strong></a>
     <br />
